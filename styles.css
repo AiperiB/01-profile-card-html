@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  background-color: #e6d9ff;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #d9c9ff;
+  border-radius: 18px;
+  padding: 32px 28px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 10px 28px rgba(85, 54, 148, 0.14);
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  margin: 0 auto 24px;
+  border-radius: 16px;
+  object-fit: cover;
+  border: 1px solid #e3d4ff;
+}
+
+h1 {
+  font-size: 38px;
+  color: #6b1f31;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 26px;
+  color: #4830a4;
+  margin: 0 0 20px;
+}
+
+.section {
+  margin-top: 24px;
+}
+
+.section h3 {
+  font-size: 18px;
+  color: #5b3a99;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.bio p {
+  font-size: 18px;
+  color: #4a4a4a;
+  line-height: 1.7;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: #f8f2ff;
+  border: 1px solid #ede0ff;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.favorites ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.favorites li {
+  margin: 0;
+}
+
+.favorites a {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #f4e8ff;
+  color: #5b3a99;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.favorites a:hover {
+  background: #e8d6ff;
+  transform: translateY(-2px);
+}
+
+.contact-info {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 520px;
+}
+
+.contact-info li {
+  background: #faf4ff;
+  border: 1px solid #e9dffb;
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #42346d;
+  font-size: 16px;
+}
+
+.contact-info li:last-child {
+  margin-bottom: 0;
+}
+
+.contact-info a {
+  color: #5b3a99;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
